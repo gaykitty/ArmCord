@@ -1,9 +1,5 @@
 lockfileVersion: '6.0'
 
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
-
 dependencies:
   arrpc:
     specifier: file:src/arrpc
@@ -41,8 +37,8 @@ devDependencies:
     specifier: ^2.4.1
     version: 2.4.1
   electron:
-    specifier: 27.0.0-beta.2
-    version: 27.0.0-beta.2
+    specifier: 27.0.0
+    version: 27.0.0
   electron-builder:
     specifier: ^24.6.3
     version: 24.6.3
@@ -1027,8 +1023,8 @@ packages:
       - supports-color
     dev: true
 
-  /electron@27.0.0-beta.2:
-    resolution: {integrity: sha512-rY4NzohK99X34CR0S40YpP0R30cVnyib/K5IN4/n52fUFn1BuMsPpZx5hxMqthHe1+7POOgb8qF7gUzoYz2+pQ==}
+  /electron@27.0.0:
+    resolution: {integrity: sha512-mr3Zoy82l8XKK/TgguE5FeNeHZ9KHXIGIpUMjbjZWIREfAv+X2Q3vdX6RG0Pmi1K23AFAxANXQezIHBA2Eypwg==}
     engines: {node: '>= 12.20.55'}
     hasBin: true
     requiresBuild: true
@@ -2635,6 +2631,7 @@ packages:
   file:src/arrpc:
     resolution: {directory: src/arrpc, type: directory}
     name: arrpc
+    version: 3.0.0
     dependencies:
       ws: 8.11.0
     transitivePeerDependencies:
@@ -2663,3 +2660,7 @@ packages:
     dependencies:
       eslint: 8.40.0
     dev: true
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false

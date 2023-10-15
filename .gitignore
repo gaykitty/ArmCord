@@ -4,3 +4,5 @@ dist
 ts-out/
 ts-out
 package-lock.json
+.envrc
+.direnv
